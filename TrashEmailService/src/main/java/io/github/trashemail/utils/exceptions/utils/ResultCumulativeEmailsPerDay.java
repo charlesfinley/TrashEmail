@@ -9,11 +9,11 @@ import java.util.Date;
 @Getter
 @Setter
 @NoArgsConstructor
-public class ResultCummulativeEmailsPerDay {
+public class ResultCumulativeEmailsPerDay {
     String day;
     Long count;
 
-    public ResultCummulativeEmailsPerDay(String day, Long count) {
+    public ResultCumulativeEmailsPerDay(String day, Long count) {
         this.day = day;
         this.count = count;
     }
